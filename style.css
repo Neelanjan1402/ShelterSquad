@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 10px;
+}
+
+.navbar a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
+.logo {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.logo video {
+  max-width: 100%;
+}
+
+.section {
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.section h1 {
+  font-size: 36px;
+}
+
+.textbox {
+  border: 2px solid white; 
+  border-radius: 10px; 
+  padding: 20px;
+  margin-bottom: 20px; 
+  background-color: black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.2s;
+}
+
+.textbox:hover {
+  transform: scale(1.02); 
+}
+
+.textbox h2 {
+  color: rgb(6, 255, 251); 
+  margin-bottom: 10px; 
+}
+
+.textbox p {
+  color: white;
+}
+.textbox-group {
+  display: flex; 
+  justify-content: space-between; 
+  flex-wrap: wrap;
+}
+
+.textbox {
+  flex: 1; 
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: black;
+  transition: transform 0.2s;
+  margin-right: 10px; 
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+  transition: border-color 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding: 10px;
+  }
+}
+#aboutus {
+  text-align: left;
+  padding-right: 0px;
+  text-align: justify;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+#motto {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+#aboutus img {
+  margin-left: 20px;
+}
+.content-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.about-text {
+  flex: 1;
+  padding: 20px;
+}
+
+.video-container {
+  flex: 1;
+  padding: 20px;
+}
+.about-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+  transition: border-color 0.3s;
+}
+.sub-menu-1{
+  display: none;
+
+}
+.hi:hover .sub-menu-1{
+  display: block;
+  position: absolute;
+  background:transparent;
+  color:white;
+  margin-top: 15px;
+}
+footer {
+  background-color:rgb(35, 165, 154);
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content p {
+  margin: 0;
+}
